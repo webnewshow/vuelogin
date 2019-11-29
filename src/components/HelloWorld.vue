@@ -2,6 +2,7 @@
   <div class="hello">
     <div class="box">
       <div class="register clearfix">
+        <form>
         <div class="title">REGISTER</div>
         <div class="user">
           <input type="text" name="user" placeholder="User" />
@@ -17,17 +18,20 @@
         </div>
         <div class="signUp">Sign up</div>
         <div class="goLo">login</div>
+        </form>
       </div>
       <div class="login clearfix">
+        <form>
         <div class="title">LOGIN</div>
-        <div class="user">
+        <div class="user" >
           <input type="text" name="user" placeholder="User" />
         </div>
         <div class="password">
           <input type="password" name="password" placeholder="Password" />
         </div>
         <div class="signIn">Sign in</div>
-        <div class="goRe">register</div>
+        <div class="goRe magin-30">register</div>
+        </form>
       </div>
     </div>
   </div>
